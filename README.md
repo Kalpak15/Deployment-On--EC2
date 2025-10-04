@@ -3,7 +3,7 @@
 # 🚗 Ride Buddy
 ## Smart Ride-Sharing Platform
   
-**Community-Driven Transportation • Secure Connections • Seamless Experience**
+*Community-Driven Transportation • Secure Connections • Seamless Experience*
   
   [![React](https://img.shields.io/badge/React-18.x-61dafb.svg)](https://reactjs.org/)
   [![Express](https://img.shields.io/badge/Express-4.x-green.svg)](https://expressjs.com/)
@@ -13,222 +13,265 @@
 
 ## 🚀 Overview
 
-**Ride Buddy** is a cutting-edge full-stack web application designed to revolutionize ride-sharing by seamlessly connecting drivers and passengers. Built for modern communities, universities, and urban areas, Ride Buddy creates a trusted ecosystem where transportation becomes efficient, affordable, and socially connected through intelligent matching and secure payment processing.
-
-### ✨ Why Ride Buddy?
-
-In today's fast-paced world, transportation challenges affect everyone - from daily commuters to occasional travelers. Ride Buddy solves these problems by creating a community-driven platform that makes ride-sharing safe, convenient, and rewarding for both drivers and passengers.
-
-## 🎯 Key Features
-
-### 🔐 Advanced Security & Authentication
-- **JWT-Based Security**: Industry-standard authentication ensures user data protection
-- **Profile Verification**: Comprehensive user verification system
-- **Secure Sessions**: Advanced session management for safe user experience
-- **Privacy Controls**: Users control their information visibility
-
-### 👥 Smart Role-Based System
-- **Driver Profiles**: Complete vehicle information and ride management
-- **Passenger Profiles**: Personalized preferences and booking history  
-- **Dynamic Switching**: Users can be both drivers and passengers
-- **Reputation System**: Community feedback builds trust
-
-### 🗺️ Intelligent Ride Management
-- **Flexible Scheduling**: Create rides that fit your timeline
-- **Real-Time Updates**: Live ride availability and booking status
-
-### 💳 Seamless Payment Integration
-- **Razorpay Payment Gateway**: Secure transaction processing
-- **Community Membership**: Safe payment system for platform access
-- **Transaction History**: Complete payment tracking and records
-- **Multiple Payment Options**: Flexible payment methods for users
-
-### 🎨 Modern User Experience
-- **Responsive Design**: Perfect experience across desktop, tablet, and mobile
-- **Intuitive Interface**: Clean, modern UI built with React
-- **Cross-Platform**: Works seamlessly across different devices and browsers
-- **Accessibility**: Inclusive design for all users
-
-## 🛠️ Technology Stack
-
-| Component | Technology | Purpose |
-|-----------|------------|---------|
-| **Frontend** | React | Dynamic and responsive user interface |
-| **Backend** | Express.js | RESTful API for server-side logic |
-| **Database** | MongoDB | Scalable storage for users, rides, and transactions |
-| **Authentication** | JWT | Secure user access and session management |
-| **Payment Gateway** | UserPay | Secure transaction processing |
-| **Security** | bcrypt, helmet | Data encryption and security headers |
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-Before running Ride Buddy, make sure you have:
-
-- **Node.js** (v14 or higher)
-- **npm** package manager
-- **MongoDB** database (local or cloud)
-- **Git** version control
-
-### Quick Setup
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Kalpak15/Ride-Buddy.git
-   cd ride-buddy
-   ```
-
-2. **Install dependencies**
-   ```bash
-   # Install backend dependencies
-   cd Carpooling_Backend
-   npm install
-   
-   # Install frontend dependencies
-   cd Carpooling_Frontend
-   npm install
-   cd ..
-   ```
-
-   **⚠️ Important:** Configure your environment variables before running the application.
-
-3. **Start the application**
-   ```bash
-   # Development mode
-   npm run dev
-   ```
-
-4. **Access the application**
-   - Open your browser and navigate to the local development server
-   - Create your account and start connecting with your community!
-
-## 📁 Project Structure
-
-```
-ride-buddy/
-├── Carpooling_Frontend/    # React frontend application
-├── Carpooling_Backend/     # Express.js backend application
-├── package.json            # Backend dependencies
-├── package-lock.json       # Backend dependency lock
-├── vite.svg               # Vite build tool configuration
-├── .gitignore             # Git ignore rules
-└── README.md              # Project Documentation
-```
-
-## 🎮 How to Use Ride Buddy
-
-### 1. Getting Started
-1. **Sign Up**: Create your account with secure authentication
-2. **Complete Profile**: Add your details and preferences
-3. **Choose Your Role**: Set up as driver, passenger, or both
-
-### 2. For Drivers
-1. **Create Rides**: Post your available rides with details
-2. **Manage Bookings**: Accept or decline passenger requests
-3. **Track Earnings**: Monitor your ride-sharing income
-4. **Build Reputation**: Earn ratings from satisfied passengers
-
-### 3. For Passengers
-1. **Search Rides**: Find rides matching your route and schedule
-2. **Book Safely**: Reserve seats with verified drivers
-3. **Secure Payment**: Complete transactions through integrated gateway
-4. **Rate Experience**: Provide feedback to build community trust
-
-### 4. Community Features
-1. **Profile Management**: Customize your ride-sharing preferences
-2. **Membership Benefits**: Access exclusive platform features
-3. **Safety First**: Verified profiles and secure communications
-
-## 🚀 Demo
-
-*Live Demo:* [View Project](https://carpooling-system-frontend.onrender.com)
+*Ride Buddy* is a cutting-edge full-stack web application designed to revolutionize ride-sharing by seamlessly connecting drivers and passengers. Built for modern communities, universities, and urban areas, Ride Buddy creates a trusted ecosystem where transportation becomes efficient, affordable, and socially connected through intelligent matching and secure payment processing.
 
 
-## 🤝 Contributing
+# Project Deployment on AWS EC2
 
-We welcome contributions from the community! Here's how you can help:
+This guide provides step-by-step instructions for deploying a full-stack application on AWS EC2 instance.
 
-### How to Contribute
-
-1. **Fork the repository**
-2. **Create feature branch** (`git checkout -b feature/amazing-feature`)
-3. **Make your changes** and test thoroughly
-4. **Commit changes** (`git commit -m 'Add Amazing Feature'`)
-5. **Push to branch** (`git push origin feature/amazing-feature`)
-6. **Open Pull Request** with detailed description
-
-### Development Guidelines
-- Follow existing code style and conventions
-- Write meaningful commit messages  
-- Add tests for new features
-- Update documentation as needed
-- Ensure all tests pass before submitting
-
-### Areas Where We Need Help
-- 🎨 UI/UX improvements
-- ⚡ Performance optimizations
-- 🌐 Accessibility features
-
-## 🌟 Features in Development
-
-We're constantly working to improve Ride Buddy. Here's what's coming:
-
-- [ ] Real-time chat between drivers and passengers
-- [ ] GPS integration for live tracking
-- [ ] Advanced search filters and preferences
-- [ ] Mobile application for iOS and Android
-- [ ] Integration with calendar applications
-- [ ] Carbon footprint tracking
-- [ ] Multi-language support
-
-## 🏆 Project Highlights
-
-### 🎯 **Full-Stack Excellence**
-*Complete end-to-end solution demonstrating modern web development skills*
-
-### 🔒 **Security-First Approach**
-*JWT authentication, secure payments using Razorpay, and data protection throughout*
-
-### 🌐 **Scalable Architecture**
-*Built with growth in mind using proven technologies and best practices*
-
-### ⚡ **Performance Optimized**
-*Fast loading times and responsive interactions for optimal user experience*
-
-## 📞 Support & Community
-
-### Getting Help
-
-- 📚 **Documentation**: Check our comprehensive guides and tutorials
-- 🐛 **Bug Reports**: Report issues with detailed information
-- 💡 **Feature Requests**: Share your ideas for platform improvements
-
-### Project Vision
-
-**Ride Buddy** represents the future of community-driven transportation. By combining cutting-edge web technologies with user-centric design, we've created a platform that makes ride-sharing accessible, secure, and rewarding for everyone.
-
-This project demonstrates expertise in:
-- Modern full-stack web development
-- Secure authentication and payment systems 
-- Database design and management  
-- Responsive UI/UX design
-- RESTful API development
-- Real-world problem solving
+## Table of Contents
+- [Prerequisites](#prerequisites)
+- [EC2 Instance Setup](#ec2-instance-setup)
+- [Project Setup](#project-setup)
+- [Backend Deployment](#backend-deployment)
+- [Frontend Deployment](#frontend-deployment)
+- [Demo & Screenshots](#demo--screenshots)
+- [Troubleshooting](#troubleshooting)
 
 ---
 
-<div align="center">
+## Prerequisites
 
-**⭐ If Ride Buddy helps you, please consider starring this repository!**
+Before starting the deployment, ensure you have:
+- AWS Account with EC2 access
+- SSH key pair (.pem file) for EC2 access
+- Your project repository URL
+- Basic knowledge of terminal/command line
 
-Made with ❤️ for smarter transportation everywhere
+---
+
+## EC2 Instance Setup
+
+### Step 1: Launch EC2 Instance
+
+1. Log in to AWS Console
+2. Navigate to *EC2 Dashboard*
+3. Click *Launch Instance*
+4. Configure instance:
+   - *Name*: Give your instance a meaningful name
+   - *AMI*: Select Ubuntu Server 22.04 LTS (or your preferred OS)
+   - *Instance Type*: t2.micro (free tier) or t2.medium (recommended for better performance)
+   - *Key Pair*: Create new or select existing key pair
+   - *Storage*: 20 GB minimum
+5. Click *Launch Instance*
+
+### Step 2: Connect to EC2 Instance
+
+1. Go to *EC2 Dashboard*
+2. Select your instance
+3. Click *Connect* button at the top
+4. Choose *EC2 Instance Connect* tab
+5. Click *Connect* button
+6. A new browser window will open with terminal access
+
+### Step 3: Update System Packages
+
+bash
+sudo apt update
+sudo apt upgrade -y
+
+
+---
+
+## Project Setup
+
+### Step 1: Install Node.js and npm
+
+bash
+
+# Download and install nvm:
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+# in lieu of restarting the shell
+\. "$HOME/.nvm/nvm.sh"
+# Download and install Node.js:
+nvm install 24
+# Verify the Node.js version:
+node -v # Should print "v24.9.0".
+# Verify npm version:
+npm -v # Should print "11.6.0".
 
 
 
-🌟 **Star this project** • 🐛 **Report Bug** • 💡 **Request Feature** • 🤝 **Contribute**
+### Step 2: Install Git (if not already installed)
 
-*Transforming transportation, one ride at a time*
+bash
+sudo apt install git -y
+git --version
+
+
+### Step 3: Clone Your Project
+
+bash
+# Navigate to home directory
+cd ~
+
+# Clone your repository
+git clone "https://github.com/your-username/your-repository.git"
+
+# Navigate to project directory
+cd your-repository
+
+
+---
+
+
+## Database Setup (MongoDB)
+
+
+# Import MongoDB GPG key
+curl -fsSL https://www.mongodb.org/static/pgp/server-7.0.asc | \sudo gpg -o /usr/share/keyrings/mongodb-server-7.0.gpg --dearmor
+
+# Add MongoDB repository
+echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-7.0.gpg ] https://repo.mongodb.org/apt/ubuntu jammy/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
+
+# Update packages
+sudo apt update
+
+# Install MongoDB
+sudo apt install -y mongodb-org
+
+# Start MongoDB service
+sudo systemctl start mongod
+sudo systemctl enable mongod
+
+# Verify MongoDB is running
+sudo systemctl status mongod
+
+
+## Backend Deployment
+
+### Step 1: Install Backend Dependencies
+
+bash
+# Navigate to backend directory
+cd backend
+
+# Install npm packages
+npm install
+
+
+### Step 2: Configure Environment Variables
+
+bash
+# Create .env file
+DATABASE_URL="mongodb://localhost:27017/Ride_Buddy"
+CLOUDINARY_CLOUD_NAME= YOUR_ClOUDINARY_URL
+CLOUDINARY_API_KEY=  YOUR_ClOUDINARY_KEY
+CLOUDINARY_API_SECRET= YOUR_ClOUDINARY_SECRET
+PORT=3000
+JWT_SECRET_KEY=YOUR_KEY
+EMAIL_USER=YOUR_EMAIL
+EMAIL_PASSWORD=EMAIL_PASSWORD
+key_id=RAZORPAY_KEY_ID    # for Payment Gateway
+key_secret=RAZORPAY_KEY_SECRET
+
+
+### Step 3: Configure Security Groups for Backend
+
+1. Go to *EC2 Dashboard* → *Security Groups*
+2. Select your instance's security group
+3. Click *Edit inbound rules*
+4. Add the following rules:
+   - *Type*: Custom TCP
+   - *Port*: 3000 (or your backend port)
+   - *Source*: 0.0.0.0/0 (or specific IPs for security)
+5. Click *Save rules*
+
+
+### Step 4: start Backend
+
+bash
+npm start
+
+
+
+## Frontend Deployment
+
+### Step 1: Update Frontend Configuration
+
+bash
+# Navigate to frontend directory
+cd ~/your-repository/frontend
+
+
+
+### Step 2: Install Frontend Dependencies
+
+bash
+# Install npm packages
+npm install
+
+
+### Step 3: Configure Environment Variables
+
+#create env
+nano .env
+
+VITE_key_id=YOUR_KEY_ID
+VITE_key_secret=YOUR_SECRET
+VITE_API_URL==http://your-ec2-public-ip:3000
+
+
+
+### Step 4: Configure Security Groups for Frontend
+
+1. Go to *EC2 Dashboard* → *Security Groups*
+2. Select your instance's security group
+3. Click *Edit inbound rules*
+4. Add the following rules:
+   - *Type*: Custom TCP
+   - *Port*: 5173 (or your frontend port)
+   - *Source*: 0.0.0.0/0 (or specific IPs for security)
+5. Click *Save rules*
+---
+
+
+### Step 5: start Frontend
+
+bash
+nohup npm run dev -- --host &
+
+
+
+## Demo & Screenshots
+
+### Application Access
+
+- *Frontend URL*: http://your-ec2-public-ip
+- *Backend API*: http://your-ec2-public-ip:3000
+
+### Screenshots
+
+Screenshots are added in Above Screenshots Folder
+
+
+### Demo Video
+
+[Link to your demo video](https://drive.google.com/file/d/1g9FgRwZcNn4YHgMUzo4I0FCj6GFXL5ae/view?usp=sharing)
+
+
+
+
+## Author
+
+Kalpak Kulkarni - [GitHub Profile](https://github.com/Kalpak15)
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
+*⭐ If Ride Buddy helps you, please consider starring this repository!*
+
+Made with ❤ for smarter transportation everywhere
+
+
+
+🌟 *Star this project* • 🐛 *Report Bug* • 💡 *Request Feature* • 🤝 *Contribute*
+
+Transforming transportation, one ride at a time
 
 </div>
 
